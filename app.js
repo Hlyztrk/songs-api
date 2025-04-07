@@ -3,7 +3,7 @@ const app = express()
 const songs = require('./routes/songs')
 
 app.get('/', (req, res) => {
-    res.send('Hello, find the songs API')
+    res.send('Hello, welcome to the songs-api')
 })
 
 app.use(express.json())
